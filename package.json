@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/deinekopavel/deinekopavel.yandex-praktikum.diplom.io/issues"
   },
-  "homepage": "https://github.com/deinekopavel/deinekopavel.yandex-praktikum.diplom.io#readme"
+  "homepage": "https://github.com/deinekopavel/deinekopavel.yandex-praktikum.diplom.io#readme",
+  "devDependencies": {
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  }
 }
