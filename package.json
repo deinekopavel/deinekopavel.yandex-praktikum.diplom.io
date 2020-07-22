@@ -1,0 +1,19 @@
+{
+  "name": "deinekopavel.yandex-praktikum.diplom.io",
+  "version": "0.0.1",
+  "description": "Graduation project for yandex praktikum",
+  "main": "/src/js/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deinekopavel/deinekopavel.yandex-praktikum.diplom.io.git"
+  },
+  "author": "Deineko Pavel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/deinekopavel/deinekopavel.yandex-praktikum.diplom.io/issues"
+  },
+  "homepage": "https://github.com/deinekopavel/deinekopavel.yandex-praktikum.diplom.io#readme"
+}
