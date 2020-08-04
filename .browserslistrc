@@ -1,0 +1,19 @@
+#Edge
+#edge >= 15
+
+#Chrome,
+#and_chr >= 61
+#chrome >= 62
+
+#Firefox,
+#firefox >= 56
+#and_ff >= 56
+
+#Safari,
+#safari >= 11
+#ios_saf >= 11
+#last 3 version
+
+    last 1 version
+    > 1%
+    IE 10

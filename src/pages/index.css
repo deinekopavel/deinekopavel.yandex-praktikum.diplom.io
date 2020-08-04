@@ -1,0 +1,9 @@
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts.css);
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: green;
+    display: flex;
+}
