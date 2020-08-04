@@ -5,8 +5,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.css%>">
+    <link rel="shortcut icon" href="<%=require('./images/favicon.ico').default%>" type="image/icon">
 </head>
 <body>
+    <div class="page">
+        <header class="header">
+            <div class="header__container">
+                <h1 class="header__title">NewsAnalyzer</h1>
+                <nav>
+                    <a class="header__link" href="./index.html">Главная</a>
+                    <a class="header__link" href="./about.html">О проекте</a>
+                </nav>
+                
+            </div>
+        </header>
+        <footer class="footer">
+            <div class="footer__container">
+                <div class="footer__wrapper">
+                    <p class="footer__copyright">&#169; 2020 Дейнеко Павел</p>
+                    <nav class="footer__nav">
+                        <a class="footer__link" href="">Главная</a>
+                        <a class="footer__link" href="">О проекте</a>
+                        <a class="footer__link" href="">Яндекс.Практикум</a>
+                    </nav>
+                </div>
+                <ul class="footer__social social">
+                    <li class="social__item">
+                        <a class="social__link" href=""></a>
+                    </li>
+                    <li class="social__item">
+                        <a class="social__link" href=""></a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+    </div>
     <script src="<%=htmlWebpackPlugin.files.js%>"></script>
 </body>
 </html>

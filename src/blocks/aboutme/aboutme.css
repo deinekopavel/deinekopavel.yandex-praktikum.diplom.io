@@ -1,0 +1,8 @@
+@import url(../aboutme/__container/__container.css);
+@import url(../aboutme/__wrapper/__wrapper\ .css);
+
+.aboutme {
+    display: flex;
+    justify-content: center;
+    background: white;
+}

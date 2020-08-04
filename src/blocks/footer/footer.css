@@ -1,0 +1,7 @@
+@import url(./__container/__container.css);
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background: white;
+}

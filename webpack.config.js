@@ -58,7 +58,12 @@ module.exports = {
                     test: /\.(jpe?g|png|gif|svg|ico)$/i,
                     use: [
                         {
-                            loader: 'file-loder?name=./images/[name].[ext]',
+                            loader: 'file-loader',
+                            options: {
+                                name: '[name].[ext]',
+                                outputPath: './images',
+                                useRelativePath: 'true',
+                            }
 
                         },
 
@@ -75,7 +80,7 @@ module.exports = {
                                     optimizationLevel: 7,
                                 },
                                 pngquant: {
-                                    quality: '70-90',
+                                    quality: [0.70, 0.90],
                                     speed: 4,
                                 },
                                 // оптимизация svg
