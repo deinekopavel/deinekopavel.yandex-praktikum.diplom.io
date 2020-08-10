@@ -1,0 +1,31 @@
+.git-story__link {
+    max-width: 170.41px;
+    display: flex;
+    text-decoration: none;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+/* identical to box height, or 133% */
+    align-items: center;
+    text-align: right;
+    color: #1A1B22;
+    padding-right: 7.59px;
+    justify-content: space-between;
+}
+
+.git-story__link::after {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 26px;
+    content: url(../../../images/arrowleft.svg);
+}
+
+
+@media (max-width : 470px) {
+    .git-story__link {
+        display: none;
+    }
+}

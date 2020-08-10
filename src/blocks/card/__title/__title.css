@@ -1,0 +1,29 @@
+.card__title {
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.625rem;
+    line-height: 1.875rem;
+/* or 115% */
+
+
+/* main/black */
+
+    color: #1A1B22;
+    margin-top: 0;
+    margin-bottom: 16px;
+}
+
+@media (max-width : 1312px) {
+    .card__title {
+        margin-bottom: max(1.219512195vw, 10px);
+        font-size: max(1.981707317vw, 1.375rem);
+        line-height: max(2.286585366vw, 1.5rem);
+    }
+}
+
+@media (max-width : 720px) {
+    .card__title {
+        line-height: 1.625rem;
+    }
+}

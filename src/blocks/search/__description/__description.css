@@ -7,3 +7,10 @@
     margin: 32px 63px 0 0;
     margin-bottom: 64px;
 }
+
+@media (max-width : 900px) {
+    .search__description {
+        margin: 16px 0 24px 0;
+    }
+
+}

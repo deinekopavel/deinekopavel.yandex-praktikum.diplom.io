@@ -1,0 +1,8 @@
+@import url(./__caption/__caption.css);
+@import url(./__sorry/__sorry.css);
+@import url(./__image/__image.css);
+
+.notfound {
+    display: flex;
+    flex-direction: column;
+}

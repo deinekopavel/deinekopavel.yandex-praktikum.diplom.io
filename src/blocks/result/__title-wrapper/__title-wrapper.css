@@ -1,0 +1,18 @@
+.result__title-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 0 64px 0;
+}
+
+@media (max-width : 1312px) {
+    .result__title-wrapper {
+        margin-bottom: max(calc(4.87804878% - 2px), 32px);
+    }
+}
+
+@media (max-width : 720px) {
+    .result__title-wrapper {
+        flex-direction: column;
+        margin-bottom: 36px;
+    }
+}

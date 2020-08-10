@@ -37,7 +37,42 @@
         </div>
         
         <section class="result">
-
+            <div class="result__container">
+                <div class="result__notfound notfound">
+                    <picture class="notfound__image">
+                        <source srcset="<%=require('./images/not-found_v1.png').default%>"> 
+                        <img class="notfound__image" src="<%=require('./images/not-found_v1.png').default%>" alt="не найдено">
+                    </picture>
+                    <p class="notfound__caption">Ничего не найдено</p>
+                    <p class="notfound__sorry">К сожалению по вашему запросу 
+                        ничего не найдено.</p>
+    
+                </div>
+                <div class="result__waiting waiting">
+                    <img class="waiting__spiner" src="<%=require('./images/Ellipse.png').default%>" alt="спинер">
+                    <p class="waiting__caption">Идет поиск новостей...</p>
+                </div>
+                <div class="result__wrapper">
+                    <div class="result__title-wrapper">
+                        <h2 class="result__title">Результаты поиска</h2>
+                        <a class="result__link link" href="./paper.html">Посмотреть аналитику</a>
+                    </div>
+                    <div class="result__card-wrapper">
+                        <a href="https://www.google.ru/" class="result__card card">
+                            <div class="card__image"></div>
+                            <article class="card__article">
+                                <p class="card__data">2 августа, 2019</p>
+                                <div class="card__wrapper">
+                                    <h3 class="card__title">Национальное достояние – парки</h3>
+                                    <p class="card__text">В 2016 году Америка отмечала важный юбилей: сто лет назад здесь начала складываться система национальных парков – охраняемых территорий, где и сегодня каждый может приобщиться к природе.</p>
+                                    <p class="card__publisher">Лента.ру</p>
+                                </div>
+                            </article>
+                        </a>
+                    </div>
+                    <button class="result__button">Показать еще</button>
+                </div>
+            </div>
         </section>
         <section class="aboutme">
             <div class="aboutme__container">

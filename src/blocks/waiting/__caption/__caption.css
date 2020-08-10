@@ -1,0 +1,15 @@
+.waiting__caption {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+/* identical to box height, or 133% */
+
+    text-align: center;
+
+/* simulator/gray/text */
+
+    color: #B6BCBF;
+    margin-bottom: 0;
+}

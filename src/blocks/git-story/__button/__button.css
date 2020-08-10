@@ -1,0 +1,25 @@
+.git-story__button {
+    align-self: center;
+    margin: 24px 0 32px 0;
+    border-radius: 100px;
+    display: none;
+    width: 288px;
+    height: 56px;
+    align-items: center;
+    justify-content: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    /* identical to box height, or 133% */
+    align-items: center;
+    text-align: center;
+    color: #1A1B22;
+}
+
+@media (max-width : 470px) {
+    .git-story__button {
+        display: flex;
+    }
+}

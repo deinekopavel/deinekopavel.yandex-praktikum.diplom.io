@@ -1,4 +1,4 @@
 .use-tech__img {
     display: flex;
-    align-items: center;
+    align-self: center;
 }

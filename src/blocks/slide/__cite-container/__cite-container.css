@@ -1,0 +1,16 @@
+.slide__cite-container {
+    display: flex;
+    padding: 16px 0 16px 0;
+}
+
+@media (max-width : 768px) {
+    .slide__cite-container {
+        padding: 19px 0 17px 0;
+    }
+}
+
+@media (max-width : 320px) {
+    .slide__cite-container {
+        padding: 11px 0 17px 0;
+    }
+}

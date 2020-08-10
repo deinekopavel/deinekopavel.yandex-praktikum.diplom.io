@@ -1,0 +1,10 @@
+@import url(./__wrapper/__wrapper.css);
+@import url(./__title/__title.css);
+@import url(./__link/__link.css);
+@import url(./__button/__button.css);
+
+.git-story {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 136px;
+}

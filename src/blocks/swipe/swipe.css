@@ -1,0 +1,11 @@
+@import url(./__wrapper/__wrapper.css);
+@import url(./__button/__button.css);
+@import url(./__pagination/__pagination.css);
+
+.swipe {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}

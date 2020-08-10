@@ -1,0 +1,24 @@
+.card__publisher {
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+/* identical to box height, or 125% */
+
+    letter-spacing: 0.4px;
+    text-transform: uppercase;
+
+/* simulator/gray/text */
+
+    color: #B6BCBF;
+    margin-bottom: 0;
+}
+
+@media (max-width : 1312px) {
+    .card__publisher {
+        margin-top: 12px;
+    }
+}
+
+

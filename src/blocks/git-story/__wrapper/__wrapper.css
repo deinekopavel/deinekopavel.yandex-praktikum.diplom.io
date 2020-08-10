@@ -1,0 +1,15 @@
+.git-story__wrapper {
+    align-self: center;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1232px;
+    min-width: 288px;
+    width: 90vw;
+    padding: 72px 0 64px 0;
+}
+
+@media (max-width : 768px) {
+    .header__wrapper{
+        width: 89.583%;
+    }
+}
