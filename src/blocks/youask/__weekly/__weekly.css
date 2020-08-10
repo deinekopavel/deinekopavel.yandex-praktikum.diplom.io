@@ -1,0 +1,13 @@
+.youask__weekly {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    margin: 0 0 4px 0;
+}
+
+.youask__weekly:after {
+    content: '34 324';
+    font-weight: bold;
+}

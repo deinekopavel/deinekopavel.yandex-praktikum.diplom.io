@@ -1,0 +1,25 @@
+.aboutme__title {
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2.5rem;
+    line-height: 2.875rem;
+    color: #1A1B22;
+    margin-top: 0;
+    margin-bottom: 24px;
+}
+
+@media (max-width : 1312px) {
+    .aboutme__title {
+        font-size: max(3.048780488%, 1.875rem);
+        line-height: max(3.506097561%, 2.5rem);
+        margin-bottom: max(1.829268293%, 16px);
+        margin-top: 0;
+    }
+}
+
+@media (max-width : 720px) {
+    .aboutme__title {
+        margin-top: 24px;
+    }
+}

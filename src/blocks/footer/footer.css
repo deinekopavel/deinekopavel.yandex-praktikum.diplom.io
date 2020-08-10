@@ -1,7 +1,18 @@
 @import url(./__container/__container.css);
+@import url(./__wrapper/__wrapper.css);
+@import url(./__copyright/__copyright.css);
+@import url(./__list/__list.css);
+@import url(./__link/__link.css);
 
 .footer {
     display: flex;
     justify-content: center;
-    background: white;
+    background-color: white;
 }
+
+
+
+
+
+
+

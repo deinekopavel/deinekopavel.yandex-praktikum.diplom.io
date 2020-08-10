@@ -3,38 +3,105 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Аналитика</title>
     <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.css%>">
     <link rel="shortcut icon" href="<%=require('./images/favicon.ico').default%>" type="image/icon">
 </head>
 <body>
     <div class="page">
-        <header class="header">
+        <header class="header header__theme_light">
             <div class="header__container">
                 <h1 class="header__title">NewsAnalyzer</h1>
-                <nav>
-                    <a class="header__link" href="./index.html">Главная</a>
-                    <a class="header__link" href="./about.html">О проекте</a>
+                <nav class="header__nav">
+                    <a class="header__link link" href="./index.html">Главная</a>
+                    <a class="header__link link link__theme_light" href="./about.html">О проекте</a>
                 </nav>
                 
             </div>
         </header>
+        <section class="youask">
+            <div class="youask__container">
+                <p class="youask__main">Главная </p>
+                <h2 class="youask__title">Вы спросили: </h2>
+                <p class="youask__weekly">Новостей за неделю: </p>
+                <p class="youask__reference">Упоминаний в загаловках: </p>
+            </div>
+        </section>
+        <section class="tabel">
+            <div class="tabel__container">
+                <h2 class="tabel__title">Аналитика по дням</h2>
+                <ul class="tabel__columns">
+                    <li class="tabel__column">Дата</li>
+                    <li class="tabel__column">Кол-во упоминаний</li>
+                </ul>
+                <div class="tabel__wrapper">
+                    <ul class="tabel__scale scale">
+                        <li class="scale__value">0</li>
+                        <li class="scale__value">25</li>
+                        <li class="scale__value">50</li>
+                        <li class="scale__value">75</li>
+                        <li class="scale__value">100</li>
+                    </ul>
+                    <div class="tabel__rows">
+                        <ul class="tabel__date-cells date-cells">
+                            <li class="date-cells__item">19, пн</li>
+                            <li class="date-cells__item">20, вт</li>
+                            <li class="date-cells__item">21, ср</li>
+                            <li class="date-cells__item">22, чт</li>
+                            <li class="date-cells__item">23, пт</li>
+                            <li class="date-cells__item">24, сб</li>
+                            <li class="date-cells__item">24, вс</li>
+                        </ul>
+                        <ul class="tabel__references-cells references-cells">
+                            <li class="references-cells__item"><p class="references-cells__value">15</p></li>
+                            <li class="references-cells__item"><p class="references-cells__value">18</p></li>
+                            <li class="references-cells__item"><p class="references-cells__value">11</p></li>
+                            <li class="references-cells__item"><p class="references-cells__value">39</p></li>
+                            <li class="references-cells__item"><p class="references-cells__value">45</p></li>
+                            <li class="references-cells__item"><p class="references-cells__value">73</p></li>
+                            <li class="references-cells__item"><p class="references-cells__value">34</p></li>
+                        </ul>
+
+                    </div>
+                    <ul class="tabel__scale scale">
+                        <li class="scale__value">0</li>
+                        <li class="scale__value">25</li>
+                        <li class="scale__value">50</li>
+                        <li class="scale__value">75</li>
+                        <li class="scale__value">100</li>
+                    </ul>
+                </div>
+
+            </div>
+
+        </section>
         <footer class="footer">
             <div class="footer__container">
                 <div class="footer__wrapper">
-                    <p class="footer__copyright">&#169; 2020 Дейнеко Павел</p>
-                    <nav class="footer__nav">
-                        <a class="footer__link" href="">Главная</a>
-                        <a class="footer__link" href="">О проекте</a>
-                        <a class="footer__link" href="">Яндекс.Практикум</a>
-                    </nav>
+                    <!--<p class="footer__copyright">&#169; 2020 Дейнеко Павел</p>-->
+                    <p class="footer__copyright">&#169; 2019  Supersite</p>
+                    <ul class="footer__list list">
+                        <li class="list__item"><a class="list__link link link__theme_revers" href="./index.html">Главная</a></li>
+                        <li class="list__item"><a class="list__link link link__theme_revers" href="./about.html">О проекте</a></li>
+                        <li class="list__item"><a class="list__link link link__theme_revers" href="https://praktikum.yandex.ru/" target="_blank">Яндекс.Практикум</a></li>
+                    </ul>
                 </div>
                 <ul class="footer__social social">
                     <li class="social__item">
-                        <a class="social__link" href=""></a>
+                        <a class="social__link link link__theme_void" href="https://github.com/" target="_blank">
+                            <picture class="social__icon">
+                                <source srcset="<%=require('./images/git.svg').default%>">
+                                <img src="<%=require('./images/git.svg').default%>" alt="github">
+                            </picture>
+                        </a>
                     </li>
                     <li class="social__item">
-                        <a class="social__link" href=""></a>
+                        <a class="social__link link link__theme_void" href="https://www.facebook.com/" target="_blank">
+                            <picture class="social__icon">
+                                <source srcset="<%=require('./images/f.svg').default%>">
+                                <img src="<%=require('./images/f.svg').default%>" alt="facebook">
+                            </picture>
+                        </a>
                     </li>
                 </ul>
             </div>

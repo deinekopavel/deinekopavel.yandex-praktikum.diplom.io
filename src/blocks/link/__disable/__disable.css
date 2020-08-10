@@ -1,0 +1,11 @@
+.link__disable.link__theme_dark {
+    pointer-events: none;
+    color: white;
+    border-bottom: 3px solid white;
+}
+
+.link__disable.link__theme_light {
+    pointer-events: none;
+    color: #1A1B22;
+    border-bottom: 3px solid #1A1B22;
+}

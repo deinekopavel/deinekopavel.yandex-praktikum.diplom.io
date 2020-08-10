@@ -9,28 +9,33 @@
 </head>
 <body>
     <div class="page">
-        <header class="header">
-            <div class="header__container">
-                <h1 class="header__title">NewsAnalyzer</h1>
-                <nav>
-                    <a class="header__link" href="./index.html">Главная</a>
-                    <a class="header__link" href="./about.html">О проекте</a>
-                </nav>
-            </div>
-        </header>
-        <section class="search">
-            <div class="search__wrapper">
-                <h2 class="search__title">Что в мире творится?</h2>
-                <p class="search__description">Введите в поиске любую тему и узнайте, 
-                    насколько популярной она была в новостях за прошедшую неделю.</p>
-            </div>
-            <form class="search__form" action="">
-                <input class="search__input" type="text" placeholder="Введите тему новости">
-                <button class="search__button">Искать</button>
-            </form>
+        <div class="cover">
+            <header class="header header__theme_dark">
+                <div class="header__container">
+                    <h1 class="header__title">NewsAnalyzer</h1>
+                    <nav class="header__nav">
+                        <a class="header__link link link__disable link__theme_dark" href="./index.html">Главная</a>
+                        <a class="header__link link link__theme_dark" href="./about.html">О проекте</a>
+                    </nav>
+                </div>
+            </header>
+            <section class="search">
+                <div class="search__wrapper">
+                    <h2 class="search__title">Что в мире творится?</h2>
+                    <p class="search__description">Введите в поиске любую тему и узнайте, 
+                        насколько популярной она была в новостях за прошедшую неделю.</p>
+                    <form class="search__form" action="">
+                        <input class="search__input" type="text" placeholder="Введите тему новости">
+                        <button class="search__button">Искать</button>
+                    </form>
+                </div>
 
+    
+    
+            </section>
 
-        </section>
+        </div>
+        
         <section class="result">
 
         </section>
@@ -65,19 +70,30 @@
         <footer class="footer">
             <div class="footer__container">
                 <div class="footer__wrapper">
-                    <p class="footer__copyright">&#169; 2020 Дейнеко Павел</p>
-                    <nav class="footer__nav">
-                        <a class="footer__link link" href="">Главная</a>
-                        <a class="footer__link link" href="">О проекте</a>
-                        <a class="footer__link link" href="">Яндекс.Практикум</a>
-                    </nav>
+                    <!--<p class="footer__copyright">&#169; 2020 Дейнеко Павел</p>-->
+                    <p class="footer__copyright">&#169; 2019  Supersite</p>
+                    <ul class="footer__list list">
+                        <li class="list__item"><a class="list__link link link__theme_revers" href="./index.html">Главная</a></li>
+                        <li class="list__item"><a class="list__link link link__theme_revers" href="./about.html">О проекте</a></li>
+                        <li class="list__item"><a class="list__link link link__theme_revers" href="https://praktikum.yandex.ru/" target="_blank">Яндекс.Практикум</a></li>
+                    </ul>
                 </div>
                 <ul class="footer__social social">
                     <li class="social__item">
-                        <a class="social__link link" href=""><img src="<%=require('./images/git.svg').default%>" alt="github"></a>
+                        <a class="social__link link link__theme_void" href="https://github.com/" target="_blank">
+                            <picture class="social__icon">
+                                <source srcset="<%=require('./images/git.svg').default%>">
+                                <img src="<%=require('./images/git.svg').default%>" alt="github">
+                            </picture>
+                        </a>
                     </li>
                     <li class="social__item">
-                        <a class="social__link link" href=""><img src="<%=require('./images/f.svg').default%>" alt="facebook"></a>
+                        <a class="social__link link link__theme_void" href="https://www.facebook.com/" target="_blank">
+                            <picture class="social__icon">
+                                <source srcset="<%=require('./images/f.svg').default%>">
+                                <img src="<%=require('./images/f.svg').default%>" alt="facebook">
+                            </picture>
+                        </a>
                     </li>
                 </ul>
             </div>

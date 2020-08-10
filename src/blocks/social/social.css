@@ -1,0 +1,13 @@
+@import url(./__item/__item.css);
+@import url(./__icon/__icon.css);
+
+.social {
+    display: flex;
+    justify-content: space-between;
+    flex-shrink: 0;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-right: 2px;
+}
+

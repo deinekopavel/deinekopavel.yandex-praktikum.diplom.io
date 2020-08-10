@@ -1,0 +1,9 @@
+.link__theme_light:hover {
+    color: #1A1B22;
+    transition: .2s ease-out;
+    transition-delay: 0.2s;
+}
+
+.link__theme_light:active {
+    color: #1A1B22;
+}

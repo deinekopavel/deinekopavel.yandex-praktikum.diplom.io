@@ -1,7 +1,31 @@
 .aboutme__container {
     display: flex;
+    align-items: center;
     max-width: 1232px;
     width: 100%;
-    justify-content: space-between;
-    align-content: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+@media (max-width : 1312px) {
+    .aboutme__container {
+        width: calc(100% - 80px);
+        margin-top: max(calc(6.097560976% - 13px), 34px);
+        margin-bottom: max(6.097560976%, 48px);
+    }
+}
+
+@media (max-width : 768px) {
+    .aboutme__container {
+        width: 688px;
+    }
+}
+
+@media (max-width : 720px) {
+    .aboutme__container {
+        width: calc(100% - 32px);
+        flex-direction: column;
+        margin-top: max(4.722222222%, 32px);
+        margin-bottom: max(6.666666667%, 30px);
+    }
 }

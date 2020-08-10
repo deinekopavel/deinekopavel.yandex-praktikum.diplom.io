@@ -1,0 +1,14 @@
+.list__link {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+/* or 133% */
+
+    text-align: center;
+
+/* main/black */
+
+    color: #1A1B22;
+}

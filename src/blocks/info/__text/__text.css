@@ -1,0 +1,16 @@
+.info__text {
+    margin-top: 0;
+    margin-bottom: 24px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+/* or 133% */
+/* main/black */
+    color: #1A1B22;
+}
+
+.info__text:last-of-type {
+    margin-bottom: 0;
+}

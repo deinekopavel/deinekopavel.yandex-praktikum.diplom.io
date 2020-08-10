@@ -1,0 +1,33 @@
+.youask__main {
+    margin-top: 0;
+    margin-bottom: 80px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+    color: #1A1B22;
+}
+
+.youask__main::after {
+    content: '/ Аналитика';
+    color: #B6BCBF;
+}
+
+@media (max-width : 1312px) {
+    .youask__main {
+        margin-bottom: max(64px, 6.097560976%);
+    }
+}
+
+@media (max-width : 720px) {
+    .youask__main {
+        margin-bottom: max(24px, 6.097560976%);
+    }
+}
+
+@media (max-width : 400px) {
+    .youask__main {
+        display: none;
+    }
+}

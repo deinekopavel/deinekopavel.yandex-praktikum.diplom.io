@@ -1,0 +1,9 @@
+.link__theme_dark:hover {
+    color: white;
+    transition: .2s ease-out;
+    transition-delay: 0.2s;
+}
+
+.link__theme_dark:active {
+    color: white;
+}

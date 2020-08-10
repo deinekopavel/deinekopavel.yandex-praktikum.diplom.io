@@ -1,0 +1,23 @@
+@import url(./__item/__item.css);
+
+.date-cells {
+    width: 104px;
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+    flex-shrink: 0;
+    margin: 0;
+    padding: 0;
+}
+
+@media (max-width : 1312px) {
+    .date-cells {
+        width: 117px;
+    }
+}
+
+@media (max-width : 720px) {
+    .date-cells {
+        width: 80px;
+    }
+}

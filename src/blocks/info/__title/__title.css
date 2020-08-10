@@ -1,0 +1,24 @@
+.info__title {
+    margin-top: 0;
+    margin-bottom: 24px;
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2.5rem;
+    line-height: 2.875rem;
+/* identical to box height, or 115% */
+
+
+/* main/black */
+
+    color: #1A1B22;
+}
+
+@media (max-width : 1312px) {
+    .info__title {
+        font-size: max(3.048780488vw, 1.875rem);
+        line-height: max(3.506097561vw, 2.125rem);
+        margin-bottom: max(1.829268293%, 16px);
+    }
+}
+

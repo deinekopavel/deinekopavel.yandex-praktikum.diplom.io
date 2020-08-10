@@ -1,0 +1,21 @@
+.use-tech__title {
+    display: flex;
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2.5rem;
+    line-height: 2.875rem;
+/* or 115% */
+/* main/black */
+    color: #1A1B22;
+    margin: 0;
+}
+
+@media (max-width : 1312px) {
+    .use-tech__title {
+        max-width: 366px;
+        font-size: 1.875rem;
+        line-height: 2.125rem;
+        margin-bottom: 38.963px;
+    }
+}

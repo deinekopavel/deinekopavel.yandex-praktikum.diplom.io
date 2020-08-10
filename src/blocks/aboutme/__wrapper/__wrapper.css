@@ -1,0 +1,22 @@
+.aboutme__wrapper {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    width: 100%;
+    margin-left: 56px;
+}
+
+@media (max-width : 1312px) {
+    .aboutme__wrapper {
+        width: max(45.731707317%, 424px);
+        margin-left: max(4.268292683%, 32px);
+    }
+
+}
+
+@media (max-width : 720px) {
+    .aboutme__wrapper {
+        margin-left: 0px;
+        width: max(58.888888889%, 288px);
+    }
+}

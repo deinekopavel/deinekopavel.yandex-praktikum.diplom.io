@@ -1,8 +1,22 @@
-@import url(../aboutme/__container/__container.css);
-@import url(../aboutme/__wrapper/__wrapper\ .css);
+@import url(./__container/__container.css);
+@import url(./__wrapper/__wrapper.css);
+@import url(./__title/__title.css);
+@import url(./__text-wrapper/__text-wrapper.css);
+@import url(./__text/__text.css);
+@import url(./__image/__image.css);
+
 
 .aboutme {
     display: flex;
     justify-content: center;
     background: white;
 }
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,8 @@
+.search__wrapper {
+    display: flex;
+    flex-direction: column;
+    max-width: 608px;
+    width: 100%;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}

@@ -1,8 +1,12 @@
 @import url(./__container/__container.css);
+@import url(./__title/__title.css);
+@import url(./__theme/__theme.css);
+@import url(./__nav/__nav.css);
+@import url(./__link/__link.css);
 
 .header {
     display: flex;
     width: 100%;
     justify-content: center;
-    border-bottom: 1px solid #B6BCBF;
+    box-shadow: inset 0px -1px 0px #D1D2D6;
 }

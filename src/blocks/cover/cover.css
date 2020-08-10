@@ -1,0 +1,8 @@
+.cover {
+    display: flex;
+    flex-direction: column;
+    background: url(../../images/georgia-de-lotz--UsJoNxLaNo-unsplash.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
