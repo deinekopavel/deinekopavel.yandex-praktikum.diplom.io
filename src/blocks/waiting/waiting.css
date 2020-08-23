@@ -1,0 +1,9 @@
+@import url(./__caption/__caption.css);
+@import url(./__spiner/__spiner.css);
+
+.waiting {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    align-items: center;
+}

@@ -1,0 +1,5 @@
+.swipe__pagination-bullet_active {
+    display: inline-block;
+    border-radius: 100%;
+    background: #1A1B22;
+}

@@ -1,0 +1,25 @@
+.git-story__wrapper {
+    align-self: center;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1232px;
+    min-width: 288px;
+    width: 90vw;
+    margin: 72px 0 64px 0;
+}
+
+@media (max-width : 1312px) {
+    .git-story__wrapper{
+        width: calc(100% - 80px);
+        margin-top: max(calc(5.487804878% - 3px), 40px);
+        margin-bottom: max(calc(4.87804878% - 6px), 32px);
+    }
+}
+
+@media (max-width : 720px) {
+    .git-story__wrapper{
+        width: calc(100% - 32px);
+        margin-top: max(calc(5.555555556% - 3px), 32px);
+        margin-bottom: max(calc(4.444444444% - 6px), 16px);
+    }
+}

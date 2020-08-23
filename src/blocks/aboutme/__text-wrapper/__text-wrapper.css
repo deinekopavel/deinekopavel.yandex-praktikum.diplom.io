@@ -1,0 +1,10 @@
+.aboutme__text-wrapper {
+    margin-top: 24px;
+}
+
+@media (max-width : 1312px) {
+    .aboutme__text-wrapper {
+        margin-top: max(calc(4.268292683% - 20px), 0px);
+    }
+
+}

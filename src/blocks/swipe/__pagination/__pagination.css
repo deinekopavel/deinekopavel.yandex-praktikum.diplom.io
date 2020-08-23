@@ -1,0 +1,22 @@
+.swipe__pagination {
+    margin-top: 48px;
+    display: flex;
+    width: auto;
+    position: unset;
+    align-self: center;
+    justify-content: space-between;
+}
+
+@media (max-width : 1312px) {
+    .swipe__pagination {
+        margin-top: max(3.658536585%, 32px);
+    }
+}
+
+@media (max-width : 720px) {
+    .swipe__pagination {
+        margin-top: max(4.444444444%, 16px);
+    }
+}
+
+

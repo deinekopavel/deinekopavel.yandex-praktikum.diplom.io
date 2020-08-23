@@ -1,0 +1,8 @@
+.social__item {
+    display: flex;
+    margin-left: 27px;
+}
+
+.social__item:first-of-type {
+    margin-left: 0px;
+}

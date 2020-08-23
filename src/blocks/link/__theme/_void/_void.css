@@ -1,0 +1,9 @@
+.link__theme_void:hover {
+    opacity: .7;
+    transition: .05s ease-out;
+    transition-delay: 0.05s;
+}
+
+.link__theme_void:active {
+    opacity: .7;
+}

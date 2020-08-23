@@ -1,0 +1,22 @@
+.card__article {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 3;
+    /*justify-content: space-between;*/
+    padding: 20px 24px 24px 24px;
+}
+
+@media (max-width : 1312px) {
+    .card__article {
+        padding-top: max(1.524390244vw, 16px);
+        padding-bottom: max(1.829268293vw, 16px);
+        padding-left: max(1.829268293vw, 16px);
+        padding-right: max(1.829268293vw, 16px);
+    }
+}
+
+@media (max-width : 720px) {
+    .card__article {
+        padding: 15.31px 16px 14.13px 16px;
+    }
+}

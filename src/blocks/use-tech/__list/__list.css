@@ -1,0 +1,33 @@
+.use-tech__list {
+    max-width: 598px;
+    width: 100%;
+    list-style: none;
+    display: grid;
+    grid-template-columns: 120px 120px 120px 120px;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+    margin-right: 112px;
+    margin-top: 13px;
+}
+
+@media (max-width : 1312px) {
+
+
+    .use-tech__list {
+        max-width: 688px;
+    }
+
+
+}
+
+
+
+@media (max-width : 720px) {
+
+    .use-tech__list {
+        grid-template-columns: 120px 120px;
+        grid-template-rows: 1fr 1fr;
+        grid-gap: 40px;
+    }
+}

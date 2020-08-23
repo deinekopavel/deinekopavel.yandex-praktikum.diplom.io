@@ -1,0 +1,9 @@
+@import url(./__value/__value.css);
+
+.scale {
+    height: 20px;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}

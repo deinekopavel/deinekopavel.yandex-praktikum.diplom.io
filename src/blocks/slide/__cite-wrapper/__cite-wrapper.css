@@ -1,0 +1,11 @@
+.slide__cite-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-left: 16px;
+}
+
+@media (max-width : 768px) {
+    .slide__cite-wrapper {
+        margin-left: 12px;
+    }
+}

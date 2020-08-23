@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>О проекте</title>
+    <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.css%>">
+    <link rel="shortcut icon" href="<%=require('./images/favicon.ico').default%>" type="image/icon">
+</head>
+<body>
+    <div class="page">
+        <header class="header header__theme_light">
+            <div class="header__container">
+                <h1 class="header__title title">NewsAnalyzer</h1>
+                <nav class="header__nav">
+                    <a class="header__link link link__theme_light" href="./index.html">Главная</a>
+                    <a class="header__link link link__theme_light link__disable" href="./about.html">О проекте</a>
+                </nav>
+                
+            </div>
+        </header>
+        <section class="info">
+            <div class="info__container">
+                <h2 class="info__title title">Клиентам</h2>
+                <div class="info__wrapper">
+                    <p class="info__text">
+                        Этот сайт — дипломный проект студента Яндекс.Практикума. 
+                        Его цель — показать, чему научился студент, какими технологиями владеет.
+                    </p>
+                    <p class="info__text">
+                        Вёрстка сайта выполнена по методологии БЭМ. 
+                        Это делает сайт гибким и масштабируемым. 
+                        Кроме того, добавлять новые страницы и функциональность проще и быстрее, 
+                        чем в проектах, выполненных по другим методологиям. 
+                        Также сайт проще и дешевле поддерживать.
+                    </p>
+                    <p class="info__text">
+                        Карточки с новостями приходят с сервера и обрабатываются асинхронно. 
+                        То есть сайт продолжает работать, пока от сервера приходит ответ. 
+                        Это повышает удобство использования сервиса.
+                    </p>
+                    <p class="info__text">
+                        При создании проекта была использована сборка технологией Webpack. 
+                        Это современный подход к разработке сайтов. 
+                        Код оптимизируется, а значит, сайт работает быстрее. 
+                        Также сайт работает в старых браузерах. 
+                        Даже если посетители — пользователи старых операционных систем, у них не будет проблем с отображением. 
+                        А значит, потенциальная аудитория возрастает.
+                    </p>
+                    <p class="info__text">
+                        Проект был проверен экспертами Яндекс.Практикума. 
+                        Если вашему бизнесу нужен сайт, мы рекомендуем обратиться к этому студенту.
+                    </p>
+                </div>
+
+            </div>
+        </section>
+        <section class="use-tech">
+            <div class="use-tech__container">
+                <h2 class="use-tech__title title">Используемые
+                    технологии</h2>
+                <ul class="use-tech__list">
+                    <li class="use-tech__card">
+                        <h3 class="use-tech__subtitle">HTML</h3>
+                        <img class="use-tech__img" src="<%=require('./images/html5.svg').default%>" alt="HTML">
+                    </li>
+                    <li class="use-tech__card">
+                        <h3 class="use-tech__subtitle">CSS</h3>
+                        <img class="use-tech__img" src="<%=require('./images/css3.svg').default%>" alt="CSS">
+                    </li>
+                    <li class="use-tech__card">
+                        <h3 class="use-tech__subtitle">Java Script</h3>
+                        <img class="use-tech__img" src="<%=require('./images/js.svg').default%>" alt="Java Script">
+                    </li>
+                    <li class="use-tech__card">
+                        <h3 class="use-tech__subtitle">Webpack</h3>
+                        <img class="use-tech__img" src="<%=require('./images/webpack.svg').default%>" alt="Webpack">
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="aboutme">
+            <div class="aboutme__container">
+                <picture class="aboutme__image">
+                    <source srcset="<%=require('./images/avatar.png').default%>" media="(min-width: 864px)">
+                    <source srcset="<%=require('./images/avatartab.png').default%>" media="(min-width: 721px)">
+                    <source srcset="<%=require('./images/avatarmobile.png').default%>" media="(min-width: 320px)">
+                    <img src="<%=require('./images/avatar.png').default%>" alt="Автор">
+                </picture>
+                <div class="aboutme__wrapper">
+                    <h2 class="aboutme__title title">Об авторе</h2>
+                    <div class="aboutme__text-wrapper">
+                        <p class="aboutme__text">Это блок с описанием автора проекта. Здесь следует указать, как вас зовут, чем вы занимаетесь, какими технологиями разработки владеете.</p>
+                        <p class="aboutme__text">Также можно рассказать о процессе обучения в Практикуме, чему вы тут научились, и чем можете помочь потенциальным заказчикам. Если хотите, оставьте свои контакты: email и телефон. Так заказчики смогут с вами связаться.</p>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="git-story">
+            <div class="git-story__wrapper">
+                <h2 class="git-story__title title">История коммитов из GitHub</h2>
+                <a href="" class="git-story__link link">Открыть в  Github </a>
+            </div>
+            <div class="git-story__swipe swipe">
+                <div class="swipe__wrapper">
+                    <a class="swipe__slide slide" href="https://github.com/" target="_blank">
+                        <div class="slide__wrapper">
+                            <p class="slide__date">14 августа, 2019</p>
+                            <div class="slide__cite-container">
+                                <picture class="slide__img">
+                                    <source srcset="<%=require('./images/mimage-01.png').default%>" media="(max-width: 768px)">
+                                    <source srcset="<%=require('./images/image-01.png').default%>">
+                                    <img src="<%=require('./images/image-01.png').default%>" alt="">
+                                </picture>
+                                <div class="slide__cite-wrapper">
+                                    <cite class="slide__cite">Антон Долинин</cite>
+                                    <p class="slide__email">anton@yandex.ru</p>
+                                </div>
+                            </div>
+                            <blockquote class="slide__text">Emmet (formerly Zen Coding) is a web-
+                                developer’s toolkit that can greatly improve your HTML & CSS workflow.
+                            </blockquote>
+                        </div>
+                    </a>
+                    <a class="swipe__slide slide"  href="https://github.com/" target="_blank">
+                        <div class="slide__wrapper">
+                            <p class="slide__date">14 августа, 2019</p>
+                            <div class="slide__cite-container">
+                                <picture class="slide__img">
+                                    <source srcset="<%=require('./images/mimage-04.png').default%>" media="(max-width: 768px)">
+                                    <source srcset="<%=require('./images/image-04.png').default%>">
+                                    <img src="<%=require('./images/image-04.png').default%>" alt="">
+                                </picture>
+                                <div class="slide__cite-wrapper">
+                                    <cite class="slide__cite">Мария Фёдорова</cite>
+                                    <p class="slide__email">mariiifed@yandex.ru</p>
+                                </div>
+                            </div>
+                            <blockquote class="slide__text">You can install this plugin directly from NetBeans Plugin Portal: in NetBeans, open <span class="slide__span"> Tools >
+                                Plugins > Available plugins </span>   and find and install Emmet plugin.
+                            </blockquote>
+                        </div>
+                    </a>
+                    <a class="swipe__slide slide"  href="https://github.com/" target="_blank">
+                        <div class="slide__wrapper">
+                            <p class="slide__date">14 августа, 2019</p>
+                            <div class="slide__cite-container">
+                                <picture class="slide__img">
+                                    <source srcset="<%=require('./images/mimage-03.png').default%>" media="(max-width: 768px)">
+                                    <source srcset="<%=require('./images/image-03.png').default%>">
+                                    <img src="<%=require('./images/image-03.png').default%>" alt="">
+                                </picture>
+                                <div class="slide__cite-wrapper">
+                                    <cite class="slide__cite">Инга Иванова</cite>
+                                    <p class="slide__email">ingaiva@yandex.ru</p>
+                                </div>
+                            </div>
+                            <blockquote class="slide__text">With Emmet, you can type CSS-like expressions 
+                                that can be dynamically parsed, and produce 
+                                output depending on what you type in the abb...
+                            </blockquote>
+                        </div>
+                    </a>
+                </div>
+                <div class="swipe__button swipe__button_next"><img src="<%=require('./images/slider-control-b.png').default%>" alt=""></div>
+                <div class="swipe__button swipe__button_prev"><img src="<%=require('./images/slider-control-b.png').default%>" alt=""></div>
+            </div>
+            <div class="swipe__pagination">
+                <span class="swipe__pagination-bullet"></span>
+                <span class="swipe__pagination-bullet swipe__pagination-bullet_active"></span>
+                <span class="swipe__pagination-bullet"></span>
+            </div>
+        <button class="git-story__button">Открыть в GitHub</button>
+    </section>
+        <footer class="footer">
+            <div class="footer__container">
+                <div class="footer__wrapper">
+                    <!--<p class="footer__copyright">&#169; 2020 Дейнеко Павел</p>-->
+                    <p class="footer__copyright">&#169; 2019  Supersite</p>
+                    <ul class="footer__list list">
+                        <li class="list__item"><a class="list__link link link__theme_revers" href="./index.html">Главная</a></li>
+                        <li class="list__item"><a class="list__link link link__theme_revers" href="./about.html">О проекте</a></li>
+                        <li class="list__item"><a class="list__link link link__theme_revers" href="https://praktikum.yandex.ru/" target="_blank">Яндекс.Практикум</a></li>
+                    </ul>
+                </div>
+                <ul class="footer__social social">
+                    <li class="social__item">
+                        <a class="social__link link link__theme_void" href="https://github.com/" target="_blank">
+                            <picture class="social__icon">
+                                <source srcset="<%=require('./images/git.svg').default%>">
+                                <img src="<%=require('./images/git.svg').default%>" alt="github">
+                            </picture>
+                        </a>
+                    </li>
+                    <li class="social__item">
+                        <a class="social__link link link__theme_void" href="https://www.facebook.com/" target="_blank">
+                            <picture class="social__icon">
+                                <source srcset="<%=require('./images/f.svg').default%>">
+                                <img src="<%=require('./images/f.svg').default%>" alt="facebook">
+                            </picture>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+    <script src="<%=htmlWebpackPlugin.files.js%>"></script>
+</body>
+</html>

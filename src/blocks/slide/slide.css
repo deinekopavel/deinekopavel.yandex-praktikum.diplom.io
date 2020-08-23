@@ -1,0 +1,35 @@
+@import url(./__wrapper/__wrapper.css);
+@import url(./__date/__date.css);
+@import url(./__cite/__cite.css);
+@import url(./__email/__email.css);
+@import url(./__text/__text.css);
+@import url(./__cite-container/__cite-container.css);
+@import url(./__cite-wrapper/__cite-wrapper.css);
+@import url(./__span/__span.css);
+
+.slide {
+    display: flex;
+    border-radius: 16px;
+    background: white;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    text-decoration: none;
+    color: #1A1B22;
+}
+
+/*@media (max-width : 768px) {
+    .slide {
+        width: 336px;
+        height: 242px;
+    }
+}
+
+
+
+@media (max-width : 320px) {
+    .slide {
+        width: 288px;
+        height: 264px;
+    }
+}*/

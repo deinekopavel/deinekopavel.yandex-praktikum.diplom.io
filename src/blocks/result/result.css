@@ -1,0 +1,14 @@
+@import url(./__container/__container.css);
+@import url(./__notfound/__notfound.css);
+@import url(./__waiting/__waiting.css);
+@import url(./__wrapper/__wrapper.css);
+@import url(./__title-wrapper/__title-wrapper.css);
+@import url(./__title/__title.css);
+@import url(./__link/__link.css);
+@import url(./__card-wrapper/__card-wrapper.css);
+@import url(./__button/__button.css);
+
+.result {
+    display: flex;
+    justify-content: center;
+}

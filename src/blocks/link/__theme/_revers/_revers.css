@@ -1,0 +1,9 @@
+.link__theme_revers:hover {
+    color: #B6BCBF;
+    transition: .2s ease-out;
+    transition-delay: 0.2s;
+}
+
+.link__theme_revers:active {
+    color: #B6BCBF;
+}

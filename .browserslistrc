@@ -1,0 +1,14 @@
+#Edge
+edge >= 15
+
+#Chrome, android chrome and yandex browser
+last 3 and_chr version
+last 3 chrome version
+
+#Firefox,
+last 3 firefox version
+last 3 and_ff version
+
+#Safari,
+last 3 safari version
+last 3 ios_saf version

@@ -1,0 +1,19 @@
+.references-cells__value {
+    margin: 0px;
+    margin-left: 6px;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: .75rem;
+    line-height: 1rem;
+/* or 133% */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.4px;
+    text-transform: uppercase;
+
+/* main/white */
+
+    color: #FFFFFF;
+}

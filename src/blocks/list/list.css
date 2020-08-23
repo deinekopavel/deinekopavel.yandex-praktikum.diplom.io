@@ -1,0 +1,25 @@
+@import url(./__item/__item.css);
+@import url(./__link/__link.css);
+
+.list {
+    max-width: 402px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+@media (max-width : 1312px) {
+    .list {
+        width: max(30.640243902%, 360px);
+    
+    }
+}
+
+@media (max-width : 720px) {
+    .list {
+        width: 184px;
+        height: 120px;
+        flex-direction: column;
+    }
+}

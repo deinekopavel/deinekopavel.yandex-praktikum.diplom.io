@@ -1,0 +1,25 @@
+.youask__title {
+    margin-top: 0;
+    margin-bottom: 24px;
+    font-size: 2.5rem;
+    line-height: 2.875rem;
+    color: #1A1B22;
+}
+
+.youask__title::after {
+    content: ' «Путешествия»';
+}
+
+@media (max-width : 1312px) {
+    .youask__title {
+        font-size: max(2rem, 3.0487vw);
+        line-height: max(2.125rem, 3.506097561vw);
+    }
+}
+
+@media (max-width : 720px) {
+    .youask__title {
+        font-size: max(1.875rem, 4,444444444vw);
+        margin-bottom: max(16px, 3.333333333vw);
+    }
+}

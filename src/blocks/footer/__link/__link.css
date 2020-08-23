@@ -1,0 +1,17 @@
+.footer__link {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    color: #1A1B22;
+    text-align: center;
+}
+
+/*'Source Sans Pro', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;*/
+
+@media (max-width : 720px) {
+    .footer__link {
+        font-family: 'Source Sans Pro', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+}

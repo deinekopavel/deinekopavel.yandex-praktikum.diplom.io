@@ -1,0 +1,29 @@
+@import url(./__data/__data.css);
+@import url(./__title/__title.css);
+@import url(./__image/__image.css);
+@import url(./__image-place/__image-place.css);
+@import url(./__article/__article.css);
+@import url(./__publisher/__publisher.css);
+@import url(./__text/__text.css);
+@import url(./__wrapper/__wrapper.css);
+
+.card {
+    height: 576px;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    background: white;
+    border-radius: 16px;
+}
+
+@media (max-width : 1312px) {
+    .card {
+        height: max(43.902439024vw, 420px);
+    }
+}
+
+@media (max-width : 720px) {
+    .card {
+        height: 446px;
+    }
+}

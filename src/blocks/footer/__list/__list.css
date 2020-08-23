@@ -1,0 +1,18 @@
+.footer__list {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 26px;
+}
+
+@media (max-width : 1312px) {
+    .footer__list {
+        margin-bottom: max(1.981707317%, 20px);
+    }
+}
+
+@media (max-width : 720px) {
+    .footer__list {
+        order: -1;
+        margin-bottom: 37px;
+    }
+}

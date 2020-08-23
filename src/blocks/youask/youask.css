@@ -1,0 +1,11 @@
+@import url(./__container/__container.css);
+@import url(./__title/__title.css);
+@import url(./__weekly/__weekly.css);
+@import url(./__reference/__reference.css);
+@import url(./__main/__main.css);
+
+.youask {
+    display: flex;
+    justify-content: center;
+    background: white;
+}

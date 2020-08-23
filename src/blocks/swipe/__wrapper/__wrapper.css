@@ -1,0 +1,26 @@
+.swipe__wrapper {
+    display: flex;
+    width: 100%;
+    height: 288px;
+}
+
+@media (max-width : 1023px) {
+    .swipe__wrapper {
+        height: 242px;
+        padding-left: 5%;
+    }
+}
+
+@media (max-width : 720px) {
+    .swipe__wrapper {
+        height: 264px;
+    }
+}
+
+
+
+/*@media (max-width : 470px) {
+    .header__wrapper{
+        padding: 16px 0px 0px 2px;
+    }
+}*/
