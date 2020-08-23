@@ -1,0 +1,14 @@
+.tabel__title {
+    font-size: 1.625rem;
+    line-height: 1.875rem;
+    margin-top: 0;
+    margin-bottom: 48px;
+    color: #1A1B22;
+}
+
+@media (max-width : 720px) {
+    .tabel__title  {
+        font-size: max(3.611111111vw, 22px);
+        margin-bottom: max(calc(6.666666667% - 4px), 16px);
+    }
+}

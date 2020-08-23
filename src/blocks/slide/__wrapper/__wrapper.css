@@ -1,0 +1,7 @@
+.slide__wrapper {
+    display: flex;
+    flex-direction: column;
+    /*padding: 24px;*/
+    width: 88%;
+    height: 88%;
+}

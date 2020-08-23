@@ -1,0 +1,30 @@
+.tabel__container {
+    max-width: 1232px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+@media (max-width : 1312px) {
+    .tabel__container {
+        width: calc(100% - 80px);
+        margin-top: max(calc(6.097560976% - 7px), 40px);
+        margin-bottom: max(calc(6.097560976% - 7px), 40px);
+    }
+}
+
+@media (max-width : 768px) {
+    .tabel__container {
+        width: 688px;
+    }
+}
+
+@media (max-width : 720px) {
+    .tabel__container {
+        width: calc(100% - 32px);
+        margin-top: max(calc(5.555555556%), 24px);
+        margin-bottom: max(calc(5.555555556%), 38px);
+    }
+}

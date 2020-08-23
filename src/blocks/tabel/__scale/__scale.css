@@ -1,0 +1,17 @@
+.tabel__scale {
+    margin-top: 16px;
+    padding-left: 104px;
+}
+
+@media (max-width : 1312px) {
+    .tabel__scale {
+        margin-top: 16px;
+        padding-left: 117px;
+    }
+}
+
+@media (max-width : 720px) {
+    .tabel__scale {
+        display: none;
+    }
+}

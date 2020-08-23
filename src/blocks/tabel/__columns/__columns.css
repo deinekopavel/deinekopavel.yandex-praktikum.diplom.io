@@ -1,0 +1,46 @@
+.tabel__columns {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    margin-bottom: 11px;
+}
+
+.tabel__column {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: .75rem;
+    line-height: 1rem;
+    letter-spacing: 0.4px;
+    text-transform: uppercase;
+    color: #B6BCBF;
+}
+
+.tabel__column:first-of-type {
+    width: 104px;
+}
+
+.tabel__column:first-of-type::after {
+    content: ' (август)';
+}
+
+@media (max-width : 1312px) {
+    .tabel__column:first-of-type {
+        width: 117px;
+    }
+}
+
+@media (max-width : 720px) {
+    .tabel__columns {
+        margin-bottom: max(1.527777778%, 7px);
+    }
+
+    .tabel__column:first-of-type {
+        width: 80px;
+    }
+}
+

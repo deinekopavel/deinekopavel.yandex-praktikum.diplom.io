@@ -1,0 +1,25 @@
+.date-cells__item {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+    color: #1A1B22;
+    margin-bottom: 56px;
+}
+
+.date-cells__item:last-of-type {
+    margin-bottom: 0px;
+}
+
+
+@media (max-width : 720px) {
+
+    .date-cells__item {
+        margin-bottom: max(7.777777778%, 24px);
+    }
+
+    .date-cells__item:last-of-type {
+        margin-bottom: 0px;
+    }
+}

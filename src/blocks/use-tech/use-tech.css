@@ -1,0 +1,24 @@
+@import url(./__container/__container.css);
+@import url(./__title/__title.css);
+@import url(./__list/__list.css);
+@import url(./__card/__card.css);
+@import url(./__subtitle/__subtitle.css);
+@import url(./__img/__img.css);
+
+.use-tech {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

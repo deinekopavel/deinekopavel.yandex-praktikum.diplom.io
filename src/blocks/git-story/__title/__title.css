@@ -1,0 +1,21 @@
+.git-story__title {
+    display: flex;
+    margin: 0;
+    font-size: 2.5rem;/*40*/
+    line-height: 2.875rem;/*46*/
+}
+
+@media (max-width : 1312px) {
+    .git-story__title {
+        font-size: max(3.048780488%, 1.875rem);/*30*/
+        line-height: max(3.506097561%, 2.125rem);/*34*/
+        width: max(34.070121951%, 336px);
+    }
+}
+
+@media (max-width : 720px) {
+    .git-story__title {
+        line-height: 2.5rem;/*40*/
+    }
+}
+

@@ -1,0 +1,13 @@
+.youask__reference {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    margin: 0;
+}
+
+.youask__reference:after {
+    content: '235';
+    font-weight: bold;
+}

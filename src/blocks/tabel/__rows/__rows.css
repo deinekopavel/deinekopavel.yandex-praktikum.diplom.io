@@ -1,0 +1,10 @@
+.tabel__rows {
+    display: flex;
+    margin-top: 8px;
+}
+
+@media (max-width : 720px) {
+    .tabel__rows {
+        margin-top: 18px;
+    }
+}

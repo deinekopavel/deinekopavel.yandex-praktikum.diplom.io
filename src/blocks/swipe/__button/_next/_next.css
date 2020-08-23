@@ -1,0 +1,4 @@
+.swipe__button_next {
+    right: 0;
+    transform: rotate(-180deg);
+}

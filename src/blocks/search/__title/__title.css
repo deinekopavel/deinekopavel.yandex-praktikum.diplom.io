@@ -1,0 +1,13 @@
+.search__title {
+    font-size: 3.75rem;
+    line-height: 4rem;
+    margin: 0;
+}
+
+@media (max-width : 1312px) {
+    .search__title {
+        max-width: 385px;
+        font-size:  max(4.573170732vw, 2.25rem);
+        line-height:  max(4.87804878vw, 2.5rem);
+    }
+}

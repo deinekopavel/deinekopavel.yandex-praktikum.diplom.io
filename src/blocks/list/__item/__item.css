@@ -1,0 +1,9 @@
+.list__item {
+    display: flex;
+    /*margin-right: 40px;*/
+    text-align: center;
+}
+
+.list__item:last-of-type {
+    margin-right: 0;
+}
