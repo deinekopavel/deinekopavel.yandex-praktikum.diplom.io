@@ -1,5 +1,5 @@
 .card__publisher {
-    font-family: Roboto Slab;
+    font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif;
     font-style: normal;
     font-weight: bold;
     font-size: 16px;
@@ -12,12 +12,13 @@
 /* simulator/gray/text */
 
     color: #B6BCBF;
-    margin-bottom: 0;
+    margin: 0;
+    margin-top: auto;
 }
 
-@media (max-width : 1312px) {
+@media (max-width : 720px) {
     .card__publisher {
-        margin-top: 12px;
+        margin-top: 5px;
     }
 }
 

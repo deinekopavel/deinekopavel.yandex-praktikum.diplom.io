@@ -10,4 +10,5 @@
     flex-direction: column;
     align-items: center;
     color: white;
+    background: rgba(196, 196, 196, 0.01);
 }

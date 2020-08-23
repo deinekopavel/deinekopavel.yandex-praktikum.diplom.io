@@ -14,6 +14,8 @@
     justify-content: center;
     align-items: center;
     flex-shrink: 0;
+    text-decoration: none;
+    color: #1A1B22;
 }
 
 /*@media (max-width : 768px) {

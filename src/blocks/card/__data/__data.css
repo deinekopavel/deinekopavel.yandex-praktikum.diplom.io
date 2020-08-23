@@ -1,5 +1,5 @@
 .card__data {
-    font-family: Source Sans Pro;
+    font-family: 'Source Sans Pro', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 1.125rem;
@@ -18,7 +18,7 @@
 
 @media (max-width : 720px) {
     .card__data {
-        margin-bottom: 19.79px;
+        margin-bottom: auto;
     }
 }
 

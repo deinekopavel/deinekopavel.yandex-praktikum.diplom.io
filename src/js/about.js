@@ -47,5 +47,7 @@ let mySwiper = new Swiper (swipe, {
     pagination: {
         el: '.swipe__pagination',
         type: 'bullets',
+        bulletClass: 'swipe__pagination-bullet',
+        bulletActiveClass: 'swipe__pagination-bullet_active',
     },
 })

@@ -6,5 +6,17 @@
 .git-story {
     display: flex;
     flex-direction: column;
-    padding-bottom: 136px;
+    margin-bottom: 80px;
+}
+
+@media (max-width : 1312px) {
+    .git-story {
+        margin-bottom: max(calc(6.097560976% - 8px), 40px);
+    }  
+}
+
+@media (max-width : 720px) {
+    .git-story {
+        margin-bottom: max(calc(5.555555556% - 8px), 32px);
+    }  
 }

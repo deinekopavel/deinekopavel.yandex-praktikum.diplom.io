@@ -1,6 +1,16 @@
 .header__nav {
     display: flex;
-    max-width: 189px;
-    width: 100%;
-    justify-content: space-between;
+    align-items: stretch;
+}
+
+@media (max-width : 1312px) {
+    .header__nav {
+        margin-right: 2px;
+    }
+}
+
+@media (max-width : 716px) {
+    .header__nav {
+        margin-right: 0px;
+    }
 }

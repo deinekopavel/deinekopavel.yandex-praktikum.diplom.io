@@ -1,6 +1,7 @@
 @import url(./__data/__data.css);
 @import url(./__title/__title.css);
 @import url(./__image/__image.css);
+@import url(./__image-place/__image-place.css);
 @import url(./__article/__article.css);
 @import url(./__publisher/__publisher.css);
 @import url(./__text/__text.css);
@@ -21,7 +22,7 @@
     }
 }
 
-@media (max-width : 1312px) {
+@media (max-width : 720px) {
     .card {
         height: 446px;
     }

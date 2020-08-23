@@ -1,8 +1,8 @@
 {
   "name": "deinekopavel.yandex-praktikum.diplom.io",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Graduation project for yandex praktikum",
-  "main": "/src/js/main.js",
+  "main": "./js/main.js",
   "scripts": {
     "build": "cross-env NODE_ENV=production rimraf dist && webpack --mode production",
     "dev": "cross-env NODE_ENV=development webpack-dev-server --mode development --open --watch",

@@ -1,6 +1,8 @@
 @import url(./__wrapper/__wrapper.css);
 @import url(./__button/__button.css);
 @import url(./__pagination/__pagination.css);
+@import url(./__pagination-bullet/__pagination-bullet.css);
+@import url(./__pagination-bullet/_active/_active.css);
 
 .swipe {
     display: flex;

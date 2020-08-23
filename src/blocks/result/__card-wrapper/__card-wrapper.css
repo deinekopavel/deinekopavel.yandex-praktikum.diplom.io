@@ -1,12 +1,12 @@
 .result__card-wrapper {
-    margin-bottom: 64px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 400px 400px 400px;
     grid-gap: 16px;
 }
 
 @media (max-width : 1312px) {
     .result__card-wrapper {
+        grid-template-columns: max(30.487804878%, 224px) max(30.487804878%, 224px) max(30.487804878%, 224px);
         grid-gap: 8px;
     }
 }
@@ -21,5 +21,6 @@
 @media (max-width : 352px) {
     .result__card-wrapper {
         grid-template-columns: 288px;
+        grid-gap: 6px;
     }
 }

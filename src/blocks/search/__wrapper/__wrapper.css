@@ -10,7 +10,7 @@
 @media (max-width : 1312px) {
     .search__wrapper {
         width: max(46.341463415%, 446px);
-        margin-bottom: max(calc(6.097560976% - 7px), 40px);
+        margin-bottom: max(calc(6.097560976% - 7px), 48px);
         margin-top: max(calc(6.097560976% - 7px), 40px);
     }
 }

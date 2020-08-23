@@ -27,7 +27,12 @@ module.exports = {
                 {
                 test: /\.css$/i,
                 use: [
-                        (isDev ? 'style-loader' : MiniCssExtractPlugin.loader),
+                        isDev ? 'style-loader' : { 
+                            loader: MiniCssExtractPlugin.loader,
+                            options: {
+                                 publicPath: '../',
+                                }
+                        },
                         {
                             loader: 'css-loader',
                             options: {
@@ -46,12 +51,17 @@ module.exports = {
                 { // тут описываются правила
                     test: /\.js$/,
                     use: { loader: "babel-loader" },
-                    exclude: /node_modules/ // исключает папку node_modules
+                    exclude: /node_modules/,
                 },
                 // загрузка шрифтов
                 {
                     test: /\.(eot|ttf|woff|woff2)$/,
-                    loader: 'file-loader?name=./vendor/fonts/[name].[ext]'
+                    loader: 'file-loader',
+                    options: {
+                        name: '[name].[ext]',
+                        outputPath: 'vendor/fonts',
+                        useRelativePath: 'true',
+                    }
                 },
                 // загрузка картинок
                 {
@@ -60,8 +70,7 @@ module.exports = {
                         {
                             loader: 'file-loader',
                             options: {
-                                name: '[name].[ext]',
-                                outputPath: './images',
+                                name: 'images/[name].[ext]',
                                 useRelativePath: 'true',
                             }
 

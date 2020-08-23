@@ -1,9 +1,28 @@
 .header__link {
-    padding-bottom: 23px;
+    margin-left: 34px;
+    text-decoration: none;
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
-    font-size: 18px;
-    line-height: 24px;
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+    display: flex;
+    flex-shrink: 0;
+    text-align: center;
     color: #B6BCBF;
+}
+
+.header__link:first-of-type {
+    margin-left: 0px;
+}
+
+@media (max-width : 716px) {
+    .header__link {
+        margin-left: 11px;
+        font-size: max(2.51396648vw, 1rem);
+    }
+
+    .header__link:first-of-type {
+        margin-left: 0px;
+    }
 }

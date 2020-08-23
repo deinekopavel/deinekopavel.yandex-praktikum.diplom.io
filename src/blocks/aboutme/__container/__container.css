@@ -10,7 +10,7 @@
 @media (max-width : 1312px) {
     .aboutme__container {
         width: calc(100% - 80px);
-        margin-top: max(calc(6.097560976% - 13px), 34px);
+        margin-top: max(calc(6.097560976% - 13px), 40px);
         margin-bottom: max(6.097560976%, 48px);
     }
 }
@@ -26,6 +26,6 @@
         width: calc(100% - 32px);
         flex-direction: column;
         margin-top: max(4.722222222%, 32px);
-        margin-bottom: max(6.666666667%, 30px);
+        margin-bottom: max(6.666666667%, 32px);
     }
 }

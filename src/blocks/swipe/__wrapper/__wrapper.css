@@ -11,6 +11,12 @@
     }
 }
 
+@media (max-width : 720px) {
+    .swipe__wrapper {
+        height: 264px;
+    }
+}
+
 
 
 /*@media (max-width : 470px) {
