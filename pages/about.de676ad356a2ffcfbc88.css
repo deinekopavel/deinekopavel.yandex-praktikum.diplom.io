@@ -349,28 +349,28 @@
   }
 @font-face {
     src:
-            url(./vendor/fonts/roboto-regular.woff) format('woff');
+            url(../vendor/fonts/roboto-regular.woff) format('woff');
     font-family: 'Roboto';
     font-weight: normal;
 }
 
 @font-face {
     src:
-            url(./vendor/fonts/roboto-medium.woff) format('woff');
+            url(../vendor/fonts/roboto-medium.woff) format('woff');
     font-family: 'Roboto';
     font-weight: bold;
 }
 
 @font-face {
     src:
-            url(./vendor/fonts/robotoslab-regular.woff) format('woff');
+            url(../vendor/fonts/robotoslab-regular.woff) format('woff');
     font-family: 'Roboto Slab';
     font-weight: normal;
 }
 
 @font-face {
     src:
-            url(./vendor/fonts/sourcesanspro-regular.woff) format('woff');
+            url(../vendor/fonts/sourcesanspro-regular.woff) format('woff');
     font-family: 'Source Sans Pro';
     font-weight: normal;
 }
@@ -913,6 +913,15 @@ button.swiper-pagination-bullet {
     background: #F5F6F7;
     color: #1A1B22;
 }
+.title {
+    font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; 
+    font-style: normal;
+    font-weight: normal;
+}
+
+/*'Roboto', Arial, Helvetica, sans-serif;*/
+/*'Source Sans Pro',Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;*/
+/*'Roboto Slab', Georgia, 'Times New Roman', Times, serif;*/
 .header__container{
     display: flex;
     max-width: 1238px;
@@ -950,8 +959,6 @@ button.swiper-pagination-bullet {
     margin-bottom: 26px;
     margin-left: 3px;
     display: flex;
-    font-family: Roboto Slab;
-    font-style: normal;
     font-weight: bold;
     font-size: 1.25rem;
     line-height: 1.5rem;
@@ -973,6 +980,7 @@ button.swiper-pagination-bullet {
 }
 .header__theme_dark {
     color: white;
+    background: rgba(196, 196, 196, 0.01);
 }
 .header__theme_light {
     background: white;
@@ -980,18 +988,47 @@ button.swiper-pagination-bullet {
 
 .header__nav {
     display: flex;
-    max-width: 189px;
-    width: 100%;
-    justify-content: space-between;
+    align-items: stretch;
+}
+
+@media (max-width : 1312px) {
+    .header__nav {
+        margin-right: 2px;
+    }
+}
+
+@media (max-width : 716px) {
+    .header__nav {
+        margin-right: 0px;
+    }
 }
 .header__link {
-    padding-bottom: 23px;
+    margin-left: 34px;
+    text-decoration: none;
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
-    font-size: 18px;
-    line-height: 24px;
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+    display: flex;
+    flex-shrink: 0;
+    text-align: center;
     color: #B6BCBF;
+}
+
+.header__link:first-of-type {
+    margin-left: 0px;
+}
+
+@media (max-width : 716px) {
+    .header__link {
+        margin-left: 11px;
+        font-size: max(2.51396648vw, 1rem);
+    }
+
+    .header__link:first-of-type {
+        margin-left: 0px;
+    }
 }
 .header {
     display: flex;
@@ -1032,9 +1069,6 @@ button.swiper-pagination-bullet {
 .info__title {
     margin-top: 0;
     margin-bottom: 24px;
-    font-family: Roboto Slab;
-    font-style: normal;
-    font-weight: normal;
     font-size: 2.5rem;
     line-height: 2.875rem;
 /* identical to box height, or 115% */
@@ -1063,7 +1097,7 @@ button.swiper-pagination-bullet {
 .info__text {
     margin-top: 0;
     margin-bottom: 24px;
-    font-family: Roboto;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 1.125rem;
@@ -1122,9 +1156,6 @@ button.swiper-pagination-bullet {
 }
 .use-tech__title {
     display: flex;
-    font-family: Roboto Slab;
-    font-style: normal;
-    font-weight: normal;
     font-size: 2.5rem;
     line-height: 2.875rem;
 /* or 115% */
@@ -1181,7 +1212,7 @@ button.swiper-pagination-bullet {
 }
 .use-tech__subtitle {
     
-    font-family: Roboto;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 1.125rem;
@@ -1231,7 +1262,7 @@ button.swiper-pagination-bullet {
 @media (max-width : 1312px) {
     .aboutme__container {
         width: calc(100% - 80px);
-        margin-top: max(calc(6.097560976% - 13px), 34px);
+        margin-top: max(calc(6.097560976% - 13px), 40px);
         margin-bottom: max(6.097560976%, 48px);
     }
 }
@@ -1247,7 +1278,7 @@ button.swiper-pagination-bullet {
         width: calc(100% - 32px);
         flex-direction: column;
         margin-top: max(4.722222222%, 32px);
-        margin-bottom: max(6.666666667%, 30px);
+        margin-bottom: max(6.666666667%, 32px);
     }
 }
 .aboutme__wrapper {
@@ -1273,9 +1304,6 @@ button.swiper-pagination-bullet {
     }
 }
 .aboutme__title {
-    font-family: Roboto Slab;
-    font-style: normal;
-    font-weight: normal;
     font-size: 2.5rem;
     line-height: 2.875rem;
     color: #1A1B22;
@@ -1286,7 +1314,7 @@ button.swiper-pagination-bullet {
 @media (max-width : 1312px) {
     .aboutme__title {
         font-size: max(3.048780488%, 1.875rem);
-        line-height: max(3.506097561%, 2.5rem);
+        line-height: max(3.506097561%, 2.125rem);
         margin-bottom: max(1.829268293%, 16px);
         margin-top: 0;
     }
@@ -1295,13 +1323,21 @@ button.swiper-pagination-bullet {
 @media (max-width : 720px) {
     .aboutme__title {
         margin-top: 24px;
+        line-height: 2.5rem;
     }
 }
 .aboutme__text-wrapper {
     margin-top: 24px;
 }
+
+@media (max-width : 1312px) {
+    .aboutme__text-wrapper {
+        margin-top: max(calc(4.268292683% - 20px), 0px);
+    }
+
+}
 .aboutme__text {
-    font-family: Roboto;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 1.125rem;
@@ -1337,43 +1373,50 @@ button.swiper-pagination-bullet {
     max-width: 1232px;
     min-width: 288px;
     width: 90vw;
-    padding: 72px 0 64px 0;
+    margin: 72px 0 64px 0;
 }
 
-@media (max-width : 768px) {
-    .header__wrapper{
-        width: 89.583%;
+@media (max-width : 1312px) {
+    .git-story__wrapper{
+        width: calc(100% - 80px);
+        margin-top: max(calc(5.487804878% - 3px), 40px);
+        margin-bottom: max(calc(4.87804878% - 6px), 32px);
+    }
+}
+
+@media (max-width : 720px) {
+    .git-story__wrapper{
+        width: calc(100% - 32px);
+        margin-top: max(calc(5.555555556% - 3px), 32px);
+        margin-bottom: max(calc(4.444444444% - 6px), 16px);
     }
 }
 .git-story__title {
-    font-family: Roboto Slab;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 40px;
-    line-height: 46px;
+    display: flex;
+    margin: 0;
+    font-size: 2.5rem;/*40*/
+    line-height: 2.875rem;/*46*/
 }
 
-@media (max-width : 768px) {
+@media (max-width : 1312px) {
     .git-story__title {
-        font-size: 30px;
-        line-height: 34px;
+        font-size: max(3.048780488%, 1.875rem);/*30*/
+        line-height: max(3.506097561%, 2.125rem);/*34*/
+        width: max(34.070121951%, 336px);
     }
-    
 }
 
-@media (max-width : 470px) {
+@media (max-width : 720px) {
     .git-story__title {
-        font-size: 30px;
-        line-height: 40px;
+        line-height: 2.5rem;/*40*/
     }
 }
 
 
 .git-story__link {
-    max-width: 170.41px;
     display: flex;
     text-decoration: none;
-    font-family: Roboto;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
@@ -1391,7 +1434,7 @@ button.swiper-pagination-bullet {
     align-items: center;
     justify-content: center;
     width: 26px;
-    content: url(images/arrowleft.svg);
+    content: url(../images/arrowleft.svg);
 }
 
 
@@ -1403,14 +1446,14 @@ button.swiper-pagination-bullet {
 
 .git-story__button {
     align-self: center;
-    margin: 24px 0 32px 0;
+    margin: 24px 0 0 0;
     border-radius: 100px;
     display: none;
     width: 288px;
     height: 56px;
     align-items: center;
     justify-content: center;
-    font-family: Roboto;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
@@ -1419,6 +1462,7 @@ button.swiper-pagination-bullet {
     align-items: center;
     text-align: center;
     color: #1A1B22;
+    outline: none;
 }
 
 @media (max-width : 470px) {
@@ -1429,7 +1473,19 @@ button.swiper-pagination-bullet {
 .git-story {
     display: flex;
     flex-direction: column;
-    padding-bottom: 136px;
+    margin-bottom: 80px;
+}
+
+@media (max-width : 1312px) {
+    .git-story {
+        margin-bottom: max(calc(6.097560976% - 8px), 40px);
+    }  
+}
+
+@media (max-width : 720px) {
+    .git-story {
+        margin-bottom: max(calc(5.555555556% - 8px), 32px);
+    }  
 }
 .slide__wrapper {
     display: flex;
@@ -1439,7 +1495,7 @@ button.swiper-pagination-bullet {
     height: 88%;
 }
 .slide__date {
-    font-family: Roboto;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -1450,7 +1506,7 @@ button.swiper-pagination-bullet {
     margin: 0;
 }
 .slide__cite {
-    font-family: Roboto Slab;
+    font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif;
     font-style: normal;
     font-weight: normal;
     font-size: 26px;
@@ -1468,7 +1524,7 @@ button.swiper-pagination-bullet {
 
 
 .slide__email {
-    font-family: Roboto;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -1476,7 +1532,7 @@ button.swiper-pagination-bullet {
     margin: 0;
 }
 .slide__text {
-    font-family: Roboto;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -1526,6 +1582,8 @@ button.swiper-pagination-bullet {
     justify-content: center;
     align-items: center;
     flex-shrink: 0;
+    text-decoration: none;
+    color: #1A1B22;
 }
 
 /*@media (max-width : 768px) {
@@ -1556,6 +1614,12 @@ button.swiper-pagination-bullet {
     }
 }
 
+@media (max-width : 720px) {
+    .swipe__wrapper {
+        height: 264px;
+    }
+}
+
 
 
 /*@media (max-width : 470px) {
@@ -1565,6 +1629,7 @@ button.swiper-pagination-bullet {
 }*/
 .swipe__button_next {
     right: 0;
+    transform: rotate(-180deg);
 }
 .swipe__button {
     position: absolute;
@@ -1573,6 +1638,11 @@ button.swiper-pagination-bullet {
     align-items: center;
     width: 6%;
     height: 100%;
+    background: linear-gradient(180deg, rgba(245, 246, 247, 0) 0%, #F5F6F7 100%);
+}
+
+.swipe__button:focus {
+    outline: none;
 }
 
 
@@ -1583,9 +1653,44 @@ button.swiper-pagination-bullet {
     }
 }
 .swipe__pagination {
-    bottom: -48px;
-    left: 50;
-    color: black;
+    margin-top: 48px;
+    display: flex;
+    width: auto;
+    position: unset;
+    align-self: center;
+    justify-content: space-between;
+}
+
+@media (max-width : 1312px) {
+    .swipe__pagination {
+        margin-top: max(3.658536585%, 32px);
+    }
+}
+
+@media (max-width : 720px) {
+    .swipe__pagination {
+        margin-top: max(4.444444444%, 16px);
+    }
+}
+
+
+
+.swipe__pagination-bullet {
+    width: 8px;
+    height: 8px;
+    margin-right: 8px;
+    display: inline-block;
+    border-radius: 100%;
+    background: #D1D2D6;
+}
+
+.swipe__pagination-bullet:last-of-type {
+    margin-right: 0;
+}
+.swipe__pagination-bullet_active {
+    display: inline-block;
+    border-radius: 100%;
+    background: #1A1B22;
 }
 .swipe {
     display: flex;
@@ -1645,7 +1750,7 @@ button.swiper-pagination-bullet {
     width: 136px;
     margin: 0;
     margin-top: 3px;
-    font-family: Roboto;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -1676,13 +1781,21 @@ button.swiper-pagination-bullet {
     }
 }
 .footer__link {
-    font-family: Roboto;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
     line-height: 24px;
     color: #1A1B22;
     text-align: center;
+}
+
+/*'Source Sans Pro', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;*/
+
+@media (max-width : 720px) {
+    .footer__link {
+        font-family: 'Source Sans Pro', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
 }
 .footer {
     display: flex;
@@ -1780,7 +1893,7 @@ button.swiper-pagination-bullet {
     margin-right: 0;
 }
 .list__link {
-    font-family: Roboto;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -1792,6 +1905,12 @@ button.swiper-pagination-bullet {
 /* main/black */
 
     color: #1A1B22;
+}
+
+@media (max-width : 720px) {
+    .list__link {
+        font-family: 'Source Sans Pro', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
 }
 .list {
     max-width: 402px;
