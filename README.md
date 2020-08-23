@@ -2,38 +2,64 @@
 ## Версия 1.0.0
 
 [Ссылка на gitpages](https://deinekopavel.github.io/deinekopavel.yandex-praktikum.diplom.io/)
+
 Данный проект создан для демонстрации усвоенных знаний и навыков за время обучения в ЯндексПрактикуиме. Проект создан на основании макета и ТЗ предоставляемого для дипломной работы.
 ### Версии плагинов и ПО
 Версии плагинов и по на которых был собран проект.
 #### ПО
 1\. Node JS 14.5.0
+
 2\. NPM 6.14.5
 #### Плагины
 Версии плагинов зафиксированы.
 1\.@babel/cli  7.10.5
+
 2\.@babel/core 7.10.5
+
 3\.@babel/preset-env 7.10.4
+
 4\.autoprefixer 9.8.5
+
 5\.babel-loader 8.1.0
+
 6\.cross-env 7.0.2
+
 7\.css-loader 3.6.0
+
 8\.cssnano 4.1.10
+
 9\.file-loader 6.0.0
+
 10\.gh-pages 3.1.0,
+
 11\.html-webpack-plugin 4.3.0
+
 12\.image-webpack-loader 6.0.0
+
 13\.mini-css-extract-plugin 0.9.0
+
 14\.optimize-css-assets-webpack-plugin 5.0.3
+
 15\.path 0.12.7
+
 16\.postcss-loader 3.0.0
+
 17\.rimraf 3.0.2
+
 18\.style-loader 1.2.1
+
 19\.webpack 4.43.0
+
 20\.webpack-cli 3.3.12
+
 21\.webpack-dev-server 3.11.0
+
 22\.webpack-md5-hash 0.0.6
+
 23\.babel-polyfill 6.26.0
+
 24\.core-js 3.4.1
+
 25\.swiper
 
 ### Как развернуть проект
